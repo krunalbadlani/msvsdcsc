@@ -172,11 +172,11 @@ cd ~/software/ALIGN-public
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 ```
 ```
-## Create inverter and perform pre-layout using xschem or ngspice
----
+
+
 ### Verifiying the open_pdk installation
 An initial working directory can be made by copying the required files as follows:
-```verilog
+```C
 $ mkdir week0
 $ cd week0
 $ mkdir inverter
