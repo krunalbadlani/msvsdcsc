@@ -11,7 +11,7 @@
 
 # Week 0
 ---
-We are going to start with installing the required tools in our virtual machine.
+We are going to start with installing the required tools in our virtual machine (Oracle Virtual box :- Ubuntu version 22.04 LTS 4GB Ram , 1 CPU core , 130GB storage) 
 This will be the order:-
 
 |	|Software|	Description|
@@ -24,7 +24,7 @@ This will be the order:-
 |6	|ALIGN	|Analog Netlist to GDS|
 ## Software Installation
 ---
-We have a windows machine, install Oracle virtual box with Ubuntu 20.04 - RAM at least 4GB, hard-disk atleast 120GB.
+In our virtual machine we'll run the following commands to setup:-
 
 - First update ubuntu with command 
 ```verilog
@@ -33,7 +33,7 @@ $ sudo apt-get upgrade
 ```
 - Then install the fillowing required file.
 
-```verilog
+```C
 $ sudo apt-get install m4
 $ sudo apt-get install tcsh
 $ sudo apt-get install csh
@@ -53,49 +53,49 @@ $ sudo apt-get install libreadline-dev
 Magic is an open-source VLSI layout tool.
 
 Install steps:
-```verilog
+```C
 $  git clone git://opencircuitdesign.com/magic
 $  cd magic
 $	 ./configure
 $  make
 $  sudo make install
 ```
-- [More Info](http://opencircuitdesign.com/magic/index.html)
+- [More Information](http://opencircuitdesign.com/magic/index.html)
 
 ### Netgen
 Netgen is a tool for comparing netlists, a process known as LVS, which stands for "Layout vs. Schematic"
 
 Install steps:
-```verilog
+```C
 $  git clone git://opencircuitdesign.com/netgen
 $  cd netgen
 $	./configure
 $  make
 $  sudo make install
 ```
-- [More Info](http://opencircuitdesign.com/netgen/index.html)
+- [More Information](http://opencircuitdesign.com/netgen/index.html)
 
 ### Xschem
 Xschem is a schematic capture program
 
 Install steps:
-```verilog
+```C
 $  git clone https://github.com/StefanSchippers/xschem.git xschem_git
 $  cd xschem_git
 $	./configure
 $  make
 $  sudo make install
 ```
-- [More Info](http://repo.hu/projects/xschem/index.html)
+- [More Information](http://repo.hu/projects/xschem/index.html)
 
 
 ### Ngspice
-ngspice is the open-source spice simulator for electric and electronic circuits.
+ngspice is an open-source spice simulator for electric and electronic circuits.
 
 Install steps:
 
-After downloading the tarball [from](https://sourceforge.net/projects/ngspice/files/) to a local directory, unpack it using(install 37 version):
-```verilog
+After downloading the tarball [from](https://sourceforge.net/projects/ngspice/files/) to a local directory, unpack it using(install the ngspice-37 version):
+```C
 
  $ tar -zxvf ngspice-37.tar.gz
  $ cd ngspice-37
@@ -109,8 +109,8 @@ After downloading the tarball [from](https://sourceforge.net/projects/ngspice/fi
 ### open_pdk
 Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description https://github.com/google/skywater-pdk. Open_PDKs will set up an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such as magic, qflow, openlane, netgen, klayout, etc.
 
-Install steps:
-```verilog
+Installation steps:
+```C
 $  git clone git://opencircuitdesign.com/open_pdks
 $  cd open_pdks
 $	./configure --enable-sky130-pdk
@@ -122,7 +122,7 @@ $  sudo make install
 ### ALIGN
 
 - Installing ALIGN
-```verilog
+```C
 # Clone the ALIGN source
 git clone https://github.com/ALIGN-analoglayout/ALIGN-public
 
@@ -166,7 +166,7 @@ pip install -v --no-build-isolation -e . --no-deps --install-option='-DBUILD_TES
 ```
 
 - Clone the Sky130 PDK
-```verilog
+```C
 cd ~/software/ALIGN-public
 
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
