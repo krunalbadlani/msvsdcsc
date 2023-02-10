@@ -171,14 +171,6 @@ cd ~/software/ALIGN-public
 
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 ```
-- If faced this error 
-![Screenshot (2367)](https://user-images.githubusercontent.com/120498080/217863997-011b9abe-ec8c-4bce-9721-8f49fa598f7e.png)
-- Solution
-```
-# First update setuptools
-pip install -U setuptools
-# Then use the correct package for dotenv, which is python-dotenv.
-pip install python-dotenv
 ```
 ## Create inverter and perform pre-layout using xschem or ngspice
 ---
@@ -202,16 +194,20 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
 
 #### Checking if magic works
-![Screenshot (2349)](https://user-images.githubusercontent.com/120498080/216841828-3dfd5129-c4ad-4af6-997d-8c8634d1e13d.png)
+![Screenshot (2349)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-07%20112207.png)
 
 #### Checking if xschem works
-![Screenshot (2346)](https://user-images.githubusercontent.com/120498080/216841917-17b9de64-f540-4e59-ba36-c280df58d01f.png)
+![Screenshot (2346)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-07%20112526.png)
 
 #### Checking if netgen works
-![Screenshot (2347)](https://user-images.githubusercontent.com/120498080/216841939-96bf7b43-b927-4fce-93b9-8e35eb73e2cb.png)
+![Screenshot (2347)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-07%20112737.png)
 
 #### Checking if ngspice works
-![Screenshot (2348)](https://user-images.githubusercontent.com/120498080/216841960-9d9aa965-ac18-459c-9c5c-ed28e1804fde.png)
+![Screenshot (2348)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-07%20112911.png)
+
+#### Checking if Align works
+![Screenshot (2348)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-09%20111943.png)
+![Screenshot (2348)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-09%20111355.png)
 
 ### Creating inverter schematic using xschem
 # Reference
