@@ -212,6 +212,11 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ---
 
 ### Creating inverter schematic using xschem/ngspice and perform pre layout simulation
+![Screenshot (2348)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-10%20200821.png)
+
+Getting the following errors:-
+
+![Screenshot (2348)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-10%20201158.png)
 
 # Reference
 - [Installing Tools](https://github.com/yathAg/Physical_Verification_SKY130A#Chapter-0---Getting-the-tools)
