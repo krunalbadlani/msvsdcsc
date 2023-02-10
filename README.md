@@ -171,10 +171,10 @@ cd ~/software/ALIGN-public
 
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 ```
-```
 
 
 ### Verifiying the open_pdk installation
+
 An initial working directory can be made by copying the required files as follows:
 ```C
 $ mkdir week0
@@ -209,7 +209,10 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ![Screenshot (2348)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-09%20111943.png)
 ![Screenshot (2348)](https://github.com/krunalbadlani/muximages/blob/main/krunal/Screenshot%202023-02-09%20111355.png)
 
-### Creating inverter schematic using xschem
+---
+
+### Creating inverter schematic using xschem/ngspice and perform pre layout simulation
+
 # Reference
 - [Installing Tools](https://github.com/yathAg/Physical_Verification_SKY130A#Chapter-0---Getting-the-tools)
 - [Installing ALIGN](https://github.com/sanampudig/OpenFASoC/tree/main/AUXCELL)
